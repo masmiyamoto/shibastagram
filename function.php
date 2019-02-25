@@ -11,7 +11,7 @@ ini_set('error_log', 'php.log');
 // デバッグ
 // ========================================
 // デバッグフラグ
-$debug_flg = false;
+$debug_flg = true;
 // デバッグログ関数
 function debug($str) {
   global $debug_flg;
